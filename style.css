@@ -1,29 +1,32 @@
 html{
 	margin: 0;
 	padding: 0;
-	font-family: sans-serif;
+	font-family: sans-serif; /*Google Fonts*/
 }
 
 body{
-	background: url(background.jpg) no-repeat center center fixed;
+	background: url(background.jpg) no-repeat center center fixed; 
 	background-size: cover;
+
 }
 
-#main{
+#main{ /*Selector de ID*/
 	width: 90%;
-	height: 1200px;
+	height: 100%;
 	margin: 0 auto;
 	padding: 12px;
-	background: rgba(245,215,80,0.1);
+	background: rgba(245,215,80,.3); /*Red, Green, Blue, Alpha*/
 }
 
 h1{
-	color: #D9B341;
-
+	color: blue; /*Hex color, Adobe Color*/
+	text-transform: uppercase;
+	font-size: 64px;
 }
 
 p{
 	color: #3743FF;
+	font-size: 16px;
 }
 
 img{
@@ -31,16 +34,23 @@ img{
 	max-width: 100%;
 }
 
-.article1{
+.tagline{
 
+}
+
+.article1{
+	width: 33%;
+	display: inline-block;
 }
 
 .article2{
-
+	width: 33%;
+	display: inline-block;
 }
 
 .article3{
-
+	width: 33%;
+	display: inline-block;
 }
 
 section{
