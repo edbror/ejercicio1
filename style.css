@@ -19,13 +19,14 @@ body{
 }
 
 h1{
-	color: blue; /*Hex color, Adobe Color*/
+	color: #3743FF; /*Hex color, Adobe Color*/
 	text-transform: uppercase;
 	font-size: 64px;
 }
 
 h2{
-
+	color: #3743FF;
+	font-size: 24px;
 }
 
 p{
@@ -36,6 +37,7 @@ p{
 img{
 	width: 100%;
 	max-width: 100%;
+	border-radius: 50%;
 }
 
 .tagline{
